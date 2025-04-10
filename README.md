@@ -1,50 +1,33 @@
-Ecommerce Website – PHP & MySQL Based Shopping Cart System
-Description:
-Developed a dynamic, database-driven ecommerce web application named MyShop, providing users with seamless browsing, cart management, and checkout experience. The project simulates a real-world online shopping platform where users can register, log in, view products, add them to a cart, and place orders.
+🛒 Ecommerce Website – MyShop (PHP + MySQL)
+📄 Description:
+A dynamic shopping cart system built using PHP and MySQL. Users can register, log in, browse products, manage their cart, and place orders — simulating a real-world ecommerce platform.
 
-Key Features:
+✅ Features:
+🔐 User Login & Registration (with PHP sessions)
 
-🔐 User Authentication – Login, registration, and session management with secure access control using PHP sessions.
+🛍️ Product Display (fetched from MySQL DB)
 
-🛍️ Product Management – Display of products fetched from the MySQL database, with dynamic rendering of product details and images.
+🛒 Add to Cart / Remove / View Total
 
-🛒 Cart System – Add to cart, view cart, remove items, and calculate subtotal and total amounts.
+💳 Checkout Process (saves order, clears cart)
 
-💳 Checkout Process – Finalizes orders and stores them in the database, emulating order placement functionality.
+📦 Basic Order Tracking
 
-📦 Order Management (basic) – Records user orders after checkout and clears the cart.
+✨ Responsive Design using HTML, CSS (Flexbox/Grid)
 
-✨ Responsive UI – Built with HTML, CSS (Flexbox/Grid), and custom styles for a clean and user-friendly interface.
+🛠️ Tech Stack:
+Frontend: HTML5, CSS3, Basic JavaScript
 
-Technologies Used:
+Backend: Core PHP, MySQL (phpMyAdmin), XAMPP (Apache server)
 
-Frontend:
+📁 Modules:
+login.php, register.php – User auth
 
-HTML5
+products.php – Product listing
 
-CSS3 (with Flexbox and custom responsive design)
+add_to_cart.php, remove_from_cart.php – Cart functions
 
-JavaScript (basic DOM interaction where needed)
+cart.php, checkout.php – Manage & place orders
 
-Backend:
-
-PHP (Core PHP for handling logic, sessions, forms, and dynamic pages)
-
-MySQL (via phpMyAdmin – for storing user, product, cart, and order data)
-
-XAMPP (local server environment for Apache, MySQL, and PHP)
-
-Modules Developed:
-
-login.php, register.php – User authentication
-
-products.php – Product listing (from MySQL DB)
-
-add_to_cart.php, remove_from_cart.php – Cart logic
-
-cart.php – View and manage cart
-
-checkout.php – Finalize order and store in DB
-
-db/db.php – Database connection and reusable logic
+db/db.php – Central DB connection
 
